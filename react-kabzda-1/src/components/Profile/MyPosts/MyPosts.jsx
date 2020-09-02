@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './MyPosts.module.css';
-import Posts from './Post/Posts';
+import Post from './Post/Post';
 
 
 
@@ -15,10 +15,8 @@ const MyPosts = () => {
     <button>Add post</button>
     </div>
     <div className={s.posts}>
-      <Posts />
-      <Posts />
-      <Posts />
-      <Posts />
+      <Post message='Hi, how ara you?'/>
+      <Post message="It's my life"/> 
       </div>
   </div>
   )

@@ -1,15 +1,15 @@
 import React from 'react';
-import s from './Posts.module.css';
+import s from './Post.module.css';
 
 
 
 
 
-const Posts = () => {
+const Post = (props) => {
   return (
     <div className={s.item}>
       <img src="https://vignette.wikia.nocookie.net/james-camerons-avatar/images/a/a1/Eytukanswrgrw.jpg/revision/latest?cb=20100125020236&path-prefix=pl" />
-        post 1
+       { props.message }
       <div>
         <span>like</span>
       </div>
@@ -20,4 +20,4 @@ const Posts = () => {
 
 
 }
-export default Posts;
+export default Post;

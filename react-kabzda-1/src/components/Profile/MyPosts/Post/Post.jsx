@@ -11,7 +11,7 @@ const Post = (props) => {
       <img src="https://vignette.wikia.nocookie.net/james-camerons-avatar/images/a/a1/Eytukanswrgrw.jpg/revision/latest?cb=20100125020236&path-prefix=pl" />
        { props.message }
       <div>
-        <span>like</span>{ props.likesCont }
+        <span>like</span>{ props.likesCount }
       </div>
     </div>
   )
@@ -20,4 +20,4 @@ const Post = (props) => {
 
 
 }
-export default Post;
+export default Post;  

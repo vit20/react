@@ -6,7 +6,7 @@ const ProfileInfo = () => {
         <div>
             <div>
                 <img
-                    src="https://www.imperiumtapet.com/public/uploads/preview/1920x1080-1776815563727220uohpchfys.jpeg"/>
+                    src='https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&h=350'/>
             </div>
             <div className={s.descriptionBlock}>
                 ava + description
